@@ -1,0 +1,45 @@
+{
+    "altitude": 7000,
+    "category": "plane",
+    "datalink": {
+        "active_info": true,
+        "active_relay": true,
+        "active_share": true,
+        "can_info": true,
+        "can_relay": true,
+        "can_share": true,
+        "enabled": true,
+        "has_datalink": true,
+        "range": 400000
+    },
+    "detection_range": 500000,
+    "ground_speed": 250,
+    "group_name": "AWACS",
+    "is_awacs": true,
+    "name": "Magic",
+    "radar": {
+        "air_dist": 600000,
+        "air_rcs": 6,
+        "precision_dist": 10,
+        "radar_status": true,
+        "scan_period": 2,
+        "scan_volume": {
+            "azimuth": [
+                -180,
+                180
+            ],
+            "elevation": [
+                -19,
+                31
+            ]
+        },
+        "surface_dist": 300000,
+        "surface_rcs": 60
+    },
+    "rcs": 30,
+    "rwr": {
+        "detection_range": 370400,
+        "my_symbol": ""
+    },
+    "type": "E-3A"
+}

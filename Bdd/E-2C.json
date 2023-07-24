@@ -1,0 +1,46 @@
+{
+    "altitude": 7000,
+    "callsign": "Hawk",
+    "category": "plane",
+    "datalink": {
+        "active_info": true,
+        "active_relay": true,
+        "active_share": true,
+        "can_info": true,
+        "can_relay": true,
+        "can_share": true,
+        "enabled": true,
+        "has_datalink": true,
+        "range": 250000
+    },
+    "detection_range": 350000,
+    "ground_speed": 550,
+    "group_name": "Overlord",
+    "is_awacs": true,
+    "name": "E-2C",
+    "radar": {
+        "air_dist": 300000,
+        "air_rcs": 6,
+        "precision_dist": 10,
+        "radar_status": true,
+        "scan_period": 10,
+        "scan_volume": {
+            "azimuth": [
+                -180,
+                180
+            ],
+            "elevation": [
+                -14,
+                29
+            ]
+        },
+        "surface_dist": 200000,
+        "surface_rcs": 60
+    },
+    "rcs": 70,
+    "rwr": {
+        "detection_range": 222240,
+        "my_symbol": ""
+    },
+    "type": "E-2C"
+}

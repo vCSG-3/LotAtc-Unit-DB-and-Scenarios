@@ -1,0 +1,8 @@
+{
+  "type": "CDG",
+  "category": "ship",
+  "detection_range": 70000,
+  "threat_range": 0,
+  "altitude":  0,
+  "groundpeed": 30
+}

@@ -1,0 +1,41 @@
+{
+    "altitude": 7000,
+    "category": "plane",
+    "datalink": {
+        "active_info": false,
+        "active_relay": true,
+        "active_share": true,
+        "can_info": false,
+        "can_relay": true,
+        "can_share": true,
+        "enabled": true,
+        "has_datalink": true,
+        "range": 150000
+    },
+    "ground_speed": 600,
+    "name": "Rafale M",
+    "radar": {
+        "air_dist": 129640,
+        "air_rcs": 10,
+        "precision_dist": 150,
+        "radar_status": true,
+        "scan_period": 8,
+        "scan_volume": {
+            "azimuth": [
+                -74,
+                70
+            ],
+            "elevation": [
+                61,
+                120
+            ]
+        },
+        "surface_dist": 0,
+        "surface_rcs": 0
+    },
+    "rcs": 5,
+    "rwr": {
+        "detection_range": 129640
+    },
+    "type": "Rafale M"
+}

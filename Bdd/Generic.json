@@ -1,0 +1,40 @@
+{
+    "category": "plane",
+    "datalink": {
+        "active_info": true,
+        "active_relay": true,
+        "active_share": true,
+        "can_info": true,
+        "can_relay": true,
+        "can_share": true,
+        "enabled": true,
+        "has_datalink": true,
+        "range": 129640
+    },
+    "name": "Generic",
+    "radar": {
+        "air_dist": 111120,
+        "air_rcs": 6,
+        "precision_dist": 10,
+        "radar_status": true,
+        "scan_period": 2,
+        "scan_volume": {
+            "azimuth": [
+                -60,
+                60
+            ],
+            "elevation": [
+                -45,
+                45
+            ]
+        },
+        "surface_dist": 0,
+        "surface_rcs": 0
+    },
+    "rwr": {
+        "detection_range": 166680,
+        "my_symbol": "Gen"
+    },
+    "threat_range": 55560,
+    "type": "Generic"
+}

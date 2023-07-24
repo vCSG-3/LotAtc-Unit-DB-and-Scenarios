@@ -1,0 +1,456 @@
+{
+    "airports": [
+        {
+            "coalition": 6,
+            "code": "SEN"
+        }
+    ],
+    "flight_data": {
+        "entries": [
+            {
+                "info": {
+                    "callsign": "",
+                    "name": "CDG",
+                    "transponder": {
+                        "mode": "-",
+                        "mode1": "00",
+                        "mode2": "0000",
+                        "mode3": "0000",
+                        "mode4": "--",
+                        "modeS": "000000"
+                    },
+                    "type": "CDG"
+                },
+                "plan": {
+                    "end_airport_code": "",
+                    "info": "",
+                    "start_airport_code": ""
+                },
+                "unit_id": 1000
+            },
+            {
+                "info": {
+                    "callsign": "",
+                    "name": "Magic",
+                    "transponder": {
+                        "mode": "-",
+                        "mode1": "00",
+                        "mode2": "0000",
+                        "mode3": "0000",
+                        "mode4": "--",
+                        "modeS": "000000"
+                    },
+                    "type": "E-3C"
+                },
+                "plan": {
+                    "end_airport_code": "",
+                    "info": "",
+                    "start_airport_code": ""
+                },
+                "unit_id": 1001
+            },
+            {
+                "info": {
+                    "callsign": "CHA",
+                    "name": "Viking",
+                    "transponder": {
+                        "mode": "-",
+                        "mode1": "00",
+                        "mode2": "0000",
+                        "mode3": "0000",
+                        "mode4": "--",
+                        "modeS": "000000"
+                    },
+                    "type": "M-2000C"
+                },
+                "plan": {
+                    "end_airport_code": "",
+                    "info": "",
+                    "start_airport_code": ""
+                },
+                "unit_id": 1002
+            },
+            {
+                "info": {
+                    "callsign": "",
+                    "name": "Bandit",
+                    "transponder": {
+                        "mode": "-",
+                        "mode1": "00",
+                        "mode2": "0000",
+                        "mode3": "0000",
+                        "mode4": "--",
+                        "modeS": "000000"
+                    },
+                    "type": "Mig-21"
+                },
+                "plan": {
+                    "end_airport_code": "",
+                    "info": "",
+                    "start_airport_code": ""
+                },
+                "unit_id": 1003
+            }
+        ]
+    },
+    "mission": {
+        "bullseye": {
+            "blue": {
+                "latitude": 43,
+                "longitude": 43
+            },
+            "red": {
+                "latitude": 43,
+                "longitude": 43
+            }
+        },
+        "day": 15,
+        "description": "Test mission",
+        "filename": "",
+        "month": 11,
+        "name": "",
+        "start_time": 10000,
+        "theatre": "caucasus",
+        "tz": 0,
+        "weather": {
+            "clouds": {
+                "base": 0,
+                "density": 0,
+                "precipit": 1,
+                "thickness": 0
+            },
+            "qnh": 1013,
+            "temperature": 0,
+            "time": {
+                "day": 15,
+                "month": 11,
+                "time": 10000000,
+                "year": 2019
+            },
+            "visibility": 9999,
+            "winds": {
+                "at2000": {
+                    "from": 0,
+                    "speed": 0
+                },
+                "at8000": {
+                    "from": 0,
+                    "speed": 0
+                },
+                "ground": {
+                    "from": 0,
+                    "speed": 0
+                }
+            }
+        },
+        "year": 2019
+    },
+    "objects": [
+        {
+            "coalition": "blue",
+            "color": "#ff2c0050",
+            "datalink": {
+                "active_info": false,
+                "active_relay": false,
+                "active_share": false,
+                "can_info": false,
+                "can_relay": false,
+                "can_share": false,
+                "enabled": true,
+                "has_datalink": false,
+                "range": 150000
+            },
+            "heading": 1.5707963267948966,
+            "latitude": 42,
+            "longitude": 40,
+            "runtime_id": 1000,
+            "show_route": false,
+            "show_trace": false,
+            "start_time": -1,
+            "status": 2,
+            "stop_time": -1,
+            "tn": "TN1000",
+            "type": "CDG"
+        },
+        {
+            "coalition": "blue",
+            "color": "#ff992499",
+            "datalink": {
+                "active_info": false,
+                "active_relay": false,
+                "active_share": false,
+                "can_info": false,
+                "can_relay": false,
+                "can_share": false,
+                "enabled": true,
+                "has_datalink": false,
+                "range": 150000
+            },
+            "ground_speed": 299.96400000000006,
+            "heading": 1.5855389741618886,
+            "latitude": 40.99999993490723,
+            "longitude": 41.00000198320648,
+            "name": "Magic",
+            "orders": [
+                {
+                    "force_start_time": false,
+                    "order_id": "{ea849838-685d-4f3c-a738-b43eb971fb37}",
+                    "start_time": -1
+                },
+                {
+                    "force_start_time": false,
+                    "order_id": "{92b144f8-5aba-455e-9ce5-0c0637f74730}",
+                    "start_time": 1114983
+                }
+            ],
+            "radar": {
+                "air_dist": 400000,
+                "air_rcs": 6,
+                "precision_dist": 0,
+                "radar_status": true,
+                "scan_period": 2,
+                "scan_volume": {
+                    "azimuth": [
+                        -180,
+                        180
+                    ],
+                    "elevation": [
+                        -180,
+                        180
+                    ]
+                },
+                "surface_dist": 300000,
+                "surface_rcs": 100
+            },
+            "runtime_id": 1001,
+            "show_route": false,
+            "show_trace": false,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "tn": "TN1001",
+            "type": "E-3C"
+        },
+        {
+            "altitude": 5000,
+            "coalition": "blue",
+            "color": "#ffbb0230",
+            "datalink": {
+                "active_info": false,
+                "active_relay": false,
+                "active_share": false,
+                "can_info": false,
+                "can_relay": false,
+                "can_share": false,
+                "enabled": true,
+                "has_datalink": false,
+                "range": 150000
+            },
+            "ground_speed": 500,
+            "group_name": "group",
+            "heading": 1.5707963267948966,
+            "latitude": 42,
+            "longitude": 44,
+            "name": "Viking",
+            "runtime_id": 1002,
+            "rwr": {
+                "detection_range": 92600,
+                "my_symbol": ""
+            },
+            "show_route": false,
+            "show_trace": false,
+            "start_time": -1,
+            "stop_time": -1,
+            "tn": "TN1002",
+            "type": "M-2000C"
+        },
+        {
+            "altitude": 7000,
+            "category": "plane",
+            "coalition": "red",
+            "color": "#ffe3b18f",
+            "datalink": {
+                "active_info": false,
+                "active_relay": false,
+                "active_share": false,
+                "can_info": false,
+                "can_relay": false,
+                "can_share": false,
+                "enabled": false,
+                "has_datalink": false,
+                "range": 150000
+            },
+            "ground_speed": 600,
+            "group_name": "group",
+            "heading": 4.71238898038469,
+            "latitude": 42,
+            "longitude": 43,
+            "name": "Bandit",
+            "orders": [
+                {
+                    "force_start_time": false,
+                    "order_id": "{8a062dc1-8a74-4bcc-ad6e-6c16440251a2}",
+                    "start_time": -1
+                }
+            ],
+            "runtime_id": 1003,
+            "show_route": false,
+            "show_trace": false,
+            "start_time": -1,
+            "status": 2,
+            "stop_time": -1,
+            "tn": "TN1003",
+            "type": "Mig-21"
+        },
+        {
+            "altitude": 30,
+            "category": "vehicle",
+            "coalition": "red",
+            "color": "#ff849422",
+            "datalink": {
+                "active_info": false,
+                "active_relay": false,
+                "active_share": false,
+                "can_info": false,
+                "can_relay": false,
+                "can_share": false,
+                "enabled": false,
+                "has_datalink": false,
+                "range": 150000
+            },
+            "detection_range": 30000,
+            "group_name": "Radar",
+            "heading": 1.5707963267948966,
+            "latitude": 44,
+            "longitude": 44,
+            "name": "EWR",
+            "radar": {
+                "air_dist": 400000,
+                "air_rcs": 6,
+                "precision_dist": 0,
+                "radar_status": true,
+                "scan_period": 2,
+                "scan_volume": {
+                    "azimuth": [
+                        -180,
+                        180
+                    ],
+                    "elevation": [
+                        0,
+                        180
+                    ]
+                },
+                "surface_dist": 0,
+                "surface_rcs": 0
+            },
+            "runtime_id": 1004,
+            "show_route": false,
+            "show_trace": false,
+            "start_time": -1,
+            "stop_time": -1,
+            "tn": "TN1004",
+            "type": "EWR-56"
+        }
+    ],
+    "orders": [
+        {
+            "altitude": 7000,
+            "attach_point": {
+                "altitude": 7000,
+                "latitude": 42.002067841601324,
+                "longitude": 42.85681891934547
+            },
+            "base_altitude": 0,
+            "base_latitude": 0,
+            "base_longitude": 0,
+            "clockwise": false,
+            "desired_altitude": -1000,
+            "desired_ground_speed": -1000,
+            "desired_heading_deg": 90,
+            "distance": 40000,
+            "ground_speed": 250,
+            "heading": 1.5707963267948966,
+            "id": "{8a062dc1-8a74-4bcc-ad6e-6c16440251a2}",
+            "name": "Bandit Orbit",
+            "turn_rate": 0.06981317007977318,
+            "type": "hippodrome",
+            "visible": true,
+            "width": 5000
+        },
+        {
+            "altitude": 10000,
+            "attach_point": {
+                "altitude": 10000,
+                "latitude": 41.21700994798082,
+                "longitude": 42.056606271162224
+            },
+            "base_altitude": 0,
+            "base_latitude": 0,
+            "base_longitude": 0,
+            "clockwise": false,
+            "desired_altitude": -1000,
+            "desired_ground_speed": -1000,
+            "desired_heading_deg": 179.88569132419002,
+            "distance": 40000,
+            "ground_speed": 250,
+            "heading": 3.139597590833314,
+            "id": "{92b144f8-5aba-455e-9ce5-0c0637f74730}",
+            "name": "Magic Orbit",
+            "turn_rate": 0.06981317007977318,
+            "type": "hippodrome",
+            "visible": true,
+            "width": 15000
+        },
+        {
+            "attach_point": {
+                "altitude": 10000,
+                "latitude": 40.99981426369938,
+                "longitude": 41.016581396961186
+            },
+            "base_altitude": 0,
+            "base_latitude": 0,
+            "base_longitude": 0,
+            "desired_altitude": -1000,
+            "desired_ground_speed": -1000,
+            "desired_heading_deg": -1000,
+            "id": "{ea849838-685d-4f3c-a738-b43eb971fb37}",
+            "loop": false,
+            "name": "Magic Waypoints",
+            "type": "waypoints",
+            "visible": true,
+            "waypoints": [
+                {
+                    "altitude": 10000,
+                    "behavior": 0,
+                    "ground_speed": 250,
+                    "latitude": 40.99981426369938,
+                    "longitude": 41.016581396961186,
+                    "type": 1
+                },
+                {
+                    "altitude": 10000,
+                    "behavior": 0,
+                    "ground_speed": 250,
+                    "latitude": 40.97184924855063,
+                    "longitude": 41.52996122343734,
+                    "type": 1
+                },
+                {
+                    "altitude": 10000,
+                    "behavior": 0,
+                    "ground_speed": 250,
+                    "latitude": 41.19297566460129,
+                    "longitude": 41.782259578353944,
+                    "type": 1
+                }
+            ]
+        }
+    ],
+    "view": {
+        "timeline_end": 3600000,
+        "timeline_start": 0,
+        "timeline_total": 7200000,
+        "trace_end": -1,
+        "trace_start": 0
+    }
+}

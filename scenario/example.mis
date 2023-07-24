@@ -1,0 +1,66 @@
+{
+    "mission": {
+        "theatre": "World"
+    },
+    "name": "",
+    "objects": [
+        {
+            "altitude": 7030,
+            "coalition": "blue",
+            "heading": 3.0892327760299634,
+            "latitude": 48.80686346108512,
+            "longitude": -20.346679687500014,
+            "runtime_id": 1010,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "E-3C"
+        },
+        {
+            "altitude": 8839,
+            "coalition": "red",
+            "datalink": {
+                "active_relay": true,
+                "active_share": true,
+                "can_relay": true,
+                "can_share": true,
+                "enabled": true,
+                "has_datalink": true,
+                "range": 150000
+            },
+            "ground_speed": 1111,
+            "heading": 4.71238898038469,
+            "latitude": 46.07526051466501,
+            "longitude": -13.910340002826246,
+            "name": "NewObject1002",
+            "runtime_id": 1008,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "Rafale"
+        },
+        {
+            "altitude": 3078,
+            "coalition": "blue",
+            "datalink": {
+                "active_relay": false,
+                "active_share": false,
+                "can_relay": false,
+                "can_share": false,
+                "enabled": false,
+                "has_datalink": false,
+                "range": 150000
+            },
+            "ground_speed": 1111,
+            "heading": 1.6231562043547265,
+            "latitude": 46.26570184339356,
+            "longitude": -19.560340002826536,
+            "name": "NewObject1001",
+            "runtime_id": 1009,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "F-16A"
+        }
+    ]
+}

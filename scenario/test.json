@@ -1,0 +1,132 @@
+{
+    "name" : "Test",
+    "mission": {
+        "description": "Test mission",
+        "description_blue": "Test mission",
+        "description_red": "Test mission",
+        "start_time": 10000,
+        "year": 2019,
+        "month": 11,
+        "day": 15,
+        "bullseye": {
+            "blue": {
+                "longitude": 43,
+                "latitude": 43
+            },
+            "red": {
+                "longitude": 43,
+                "latitude": 43
+            }
+        }
+    },
+    "objects" : [
+        {
+            "name": "Magic",
+           "group_name": "AWACS",
+           "category": "plane",
+           "type": "E-3C",
+           "coalition": "blue",
+           "detection_range": 500000,
+           "threat_range": 0,
+           "radar": {
+               "scan_volume": {
+                   "azimuth": [ -180, 180 ],
+                   "elevation": [ -180, 180 ]
+               },
+               "radar_status": true,
+               "air_rcs": 6,
+               "air_dist": 400000,
+               "surface_rcs": 100,
+               "surface_dist": 300000
+           },
+           "latitude":  44,
+           "longitude": 42,
+           "altitude":  10000,
+           "heading_deg": 90,
+           "ground_speed": 300,
+           "turn_radius_deg": 3,
+           "transponder": "1204FR"
+        },
+        {
+            "name": "Cyrano",
+           "group_name": "AWACS",
+           "category": "plane",
+           "type": "E-3C",
+           "coalition": "blue",
+           "detection_range": 500000,
+           "threat_range": 0,
+           "radar": {
+               "scan_volume": {
+                   "azimuth": [ -180, 180 ],
+                   "elevation": [ -180, 180 ]
+               },
+               "radar_status": true,
+               "air_rcs": 6,
+               "air_dist": 400000,
+               "surface_rcs": 100,
+               "surface_dist": 300000
+           },
+           "latitude":  43,
+           "longitude": 42,
+           "altitude":  10000,
+           "heading_deg": 90,
+           "ground_speed": 300,
+           "turn_radius_deg": 3,
+           "transponder": "1204FR"
+        },
+        {
+            "name": "M-2000C",
+           "group_name": "group",
+           "category": "plane",
+           "type": "f-18",
+           "coalition": "blue",
+           "detection_range": 0,
+           "threat_range": 0,
+           "latitude":  42,
+           "longitude": 44,
+           "altitude":  1000,
+           "heading_deg": 90,
+           "ground_speed": 300,
+           "turn_radius_deg": 0,
+           "transponder": ""
+        },
+        {
+            "name": "Bandit",
+           "group_name": "group",
+           "category": "plane",
+           "type": "Mig-21",
+           "coalition": "red",
+           "detection_range": 0,
+           "threat_range": 0,
+           "latitude":  42,
+           "longitude": 43,
+           "altitude":  1000,
+           "heading_deg": 270,
+           "ground_speed": 300,
+           "turn_radius_deg": 0,
+           "transponder": ""
+        },
+        {
+            "name": "EWR",
+           "group_name": "Radar",
+           "category": "vehicle",
+           "type": "EWR-56",
+           "coalition": "red",
+           "detection_range": 30000,
+           "threat_range": 0,
+           "radar": {
+               "scan_volume": {
+                   "azimuth": [ -180, 180 ],
+                   "elevation": [ 0, 180 ]
+               },
+               "radar_status": true,
+               "air_rcs": 6,
+               "air_dist": 400000
+           },
+           "latitude":  44,
+           "longitude": 44,
+           "altitude":  30,
+           "heading_deg": 90
+        }
+    ]
+}

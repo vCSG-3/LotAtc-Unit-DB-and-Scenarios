@@ -1,0 +1,41 @@
+{
+    "altitude": 3000,
+    "category": "plane",
+    "datalink": {
+        "active_info": true,
+        "active_relay": true,
+        "active_share": true,
+        "can_info": true,
+        "can_relay": true,
+        "can_share": true,
+        "enabled": false,
+        "has_datalink": true,
+        "range": 150000
+    },
+    "ground_speed": 600,
+    "name": "Viper",
+    "radar": {
+        "air_dist": 120380,
+        "air_rcs": 10,
+        "precision_dist": 0,
+        "radar_status": true,
+        "scan_period": 4,
+        "scan_volume": {
+            "azimuth": [
+                -72,
+                72
+            ],
+            "elevation": [
+                31,
+                88
+            ]
+        },
+        "surface_dist": 0,
+        "surface_rcs": 0
+    },
+    "rcs": 7,
+    "rwr": {
+        "detection_range": 148160
+    },
+    "type": "F-16A"
+}

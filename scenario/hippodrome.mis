@@ -1,0 +1,133 @@
+{
+    "airports": [
+    ],
+    "flight_data": {
+        "entries": [
+        ]
+    },
+    "mission": {
+        "bullseye": {
+            "blue": {
+                "latitude": 43,
+                "longitude": 43
+            },
+            "red": {
+                "latitude": 43,
+                "longitude": 43
+            }
+        },
+        "day": 15,
+        "description": "Test mission",
+        "filename": "",
+        "month": 11,
+        "name": "",
+        "start_time": 10000,
+        "theatre": "World",
+        "tz": 0,
+        "weather": {
+            "clouds": {
+                "base": 0,
+                "density": 0,
+                "precipit": 1,
+                "thickness": 0
+            },
+            "qnh": 1013,
+            "temperature": 0,
+            "time": {
+                "day": 15,
+                "month": 11,
+                "time": 10000000,
+                "year": 2019
+            },
+            "visibility": 0,
+            "winds": {
+                "at2000": {
+                    "from": 0,
+                    "speed": 0
+                },
+                "at8000": {
+                    "from": 0,
+                    "speed": 0
+                },
+                "ground": {
+                    "from": 0,
+                    "speed": 0
+                }
+            }
+        },
+        "year": 2019
+    },
+    "objects": [
+        {
+            "altitude": 10000,
+            "category": "plane",
+            "coalition": "blue",
+            "color": "#ffa4aa1c",
+            "datalink": {
+                "active_info": false,
+                "active_relay": false,
+                "active_share": false,
+                "can_info": false,
+                "can_relay": false,
+                "can_share": false,
+                "enabled": false,
+                "has_datalink": false,
+                "range": 150000
+            },
+            "ground_speed": 0.0179999999999856,
+            "group_name": "AWACS",
+            "heading": 6.25845338114351,
+            "latitude": 43.5,
+            "longitude": 43.5,
+            "name": "Magic",
+            "orders": [
+                {
+                    "force_start_time": false,
+                    "order_id": "{66879687-8559-4137-8467-978b4714f424}",
+                    "start_time": -1
+                }
+            ],
+            "runtime_id": 1000,
+            "show_route": false,
+            "show_trace": false,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "tn": "TN1000",
+            "type": "E-3C"
+        }
+    ],
+    "orders": [
+        {
+            "altitude": 5000,
+            "attach_point": {
+                "altitude": 5000,
+                "latitude": 43.773975676817905,
+                "longitude": 43.4906141105796
+            },
+            "base_altitude": null,
+            "base_latitude": null,
+            "base_longitude": null,
+            "clockwise": false,
+            "desired_altitude": -1000,
+            "desired_ground_speed": -1000,
+            "desired_heading_deg": 359.5451578128764,
+            "distance": 22532.844877830623,
+            "ground_speed": 250,
+            "heading": 6.275246813437308,
+            "id": "{66879687-8559-4137-8467-978b4714f424}",
+            "name": "new Orbit",
+            "turn_rate": 0.06981317007977318,
+            "type": "hippodrome",
+            "visible": true,
+            "width": 5000
+        }
+    ],
+    "view": {
+        "timeline_end": 3600000,
+        "timeline_start": 0,
+        "timeline_total": 7200000,
+        "trace_end": -1,
+        "trace_start": 0
+    }
+}

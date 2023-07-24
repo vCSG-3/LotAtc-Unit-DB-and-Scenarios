@@ -1,0 +1,29 @@
+{
+    "altitude": 10000,
+    "category": "plane",
+    "detection_range": 500000,
+    "ground_speed": 300,
+    "group_name": "AWACS",
+    "is_awacs": true,
+    "name": "E-3C",
+    "radar": {
+        "air_dist": 400000,
+        "air_rcs": 6,
+        "precision_dist": 0,
+        "radar_status": true,
+        "scan_period": 4,
+        "scan_volume": {
+            "azimuth": [
+                -180,
+                180
+            ],
+            "elevation": [
+                -180,
+                180
+            ]
+        },
+        "surface_dist": 300000,
+        "surface_rcs": 100
+    },
+    "type": "E-3C"
+}

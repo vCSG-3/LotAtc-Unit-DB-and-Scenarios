@@ -1,0 +1,161 @@
+{
+    "mission": {
+        "bullseye": {
+            "blue": {
+                "latitude": 43,
+                "longitude": 43
+            },
+            "red": {
+                "latitude": 43,
+                "longitude": 43
+            }
+        },
+        "day": 15,
+        "description": "Test mission",
+        "description_blue": "Test mission",
+        "description_red": "Test mission",
+        "month": 11,
+        "start_time": 10000,
+        "year": 2019
+    },
+    "name": "Test",
+    "objects": [
+        {
+            "coalition": "red",
+            "latitude": 42.70262285884401,
+            "longitude": 40.42968749999993,
+            "runtime_id": 1007,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "CDG"
+        },
+        {
+            "altitude": 5000,
+            "coalition": "blue",
+            "ground_speed": 500,
+            "group_name": "group",
+            "heading": 1.5707963267948966,
+            "latitude": 42,
+            "longitude": 44,
+            "name": "Viking",
+            "runtime_id": 1006,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "M-2000C"
+        },
+        {
+            "altitude": 7000,
+            "category": "plane",
+            "coalition": "red",
+            "ground_speed": 600,
+            "group_name": "group",
+            "heading": 4.71238898038469,
+            "latitude": 42,
+            "longitude": 43,
+            "name": "Bandit",
+            "runtime_id": 1005,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "Mig-21"
+        },
+        {
+            "coalition": "blue",
+            "heading": 1.5707963267948966,
+            "latitude": 42,
+            "longitude": 40,
+            "runtime_id": 1004,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "CDG"
+        },
+        {
+            "coalition": "blue",
+            "heading": 1.5707963267948966,
+            "latitude": 41,
+            "longitude": 41,
+            "runtime_id": 1003,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "E-3C"
+        },
+        {
+            "coalition": "red",
+            "latitude": 42.13183974703911,
+            "longitude": 41.95404052734375,
+            "runtime_id": 1002,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "Char Leclerc"
+        },
+        {
+            "coalition": "red",
+            "latitude": 42.09007006868408,
+            "longitude": 41.956787109374936,
+            "radar": {
+                "air_dist": 600,
+                "air_rcs": 6,
+                "precision_dist": 10,
+                "radar_status": true,
+                "scan_period": 2,
+                "scan_volume": {
+                    "azimuth": [
+                        -180,
+                        180
+                    ],
+                    "elevation": [
+                        1,
+                        180
+                    ]
+                },
+                "surface_dist": 0,
+                "surface_rcs": 0
+            },
+            "runtime_id": 1001,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "EWR"
+        },
+        {
+            "altitude": 30,
+            "category": "vehicle",
+            "coalition": "red",
+            "detection_range": 30000,
+            "group_name": "Radar",
+            "heading": 1.5707963267948966,
+            "latitude": 44,
+            "longitude": 44,
+            "name": "EWR",
+            "radar": {
+                "air_dist": 400000,
+                "air_rcs": 6,
+                "precision_dist": 0,
+                "radar_status": true,
+                "scan_period": 2,
+                "scan_volume": {
+                    "azimuth": [
+                        -180,
+                        180
+                    ],
+                    "elevation": [
+                        0,
+                        180
+                    ]
+                },
+                "surface_dist": 0,
+                "surface_rcs": 0
+            },
+            "runtime_id": 1000,
+            "start_time": -1,
+            "status": 1,
+            "stop_time": -1,
+            "type": "EWR-56"
+        }
+    ]
+}

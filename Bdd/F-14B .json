@@ -1,0 +1,41 @@
+{
+    "category": "plane",
+    "datalink": {
+        "active_info": true,
+        "active_relay": true,
+        "active_share": true,
+        "can_info": true,
+        "can_relay": true,
+        "can_share": true,
+        "enabled": true,
+        "has_datalink": true,
+        "range": 150000
+    },
+    "ground_speed_std": 648,
+    "name": "F-14B",
+    "radar": {
+        "air_dist": 7408,
+        "air_rcs": 0,
+        "precision_dist": 3,
+        "radar_status": true,
+        "scan_period": 2,
+        "scan_volume": {
+            "azimuth": [
+                -44,
+                100
+            ],
+            "elevation": [
+                -69,
+                20
+            ]
+        },
+        "surface_dist": 7408,
+        "surface_rcs": 0
+    },
+    "rwr": {
+        "detection_range": 222240,
+        "my_symbol": "F-14B"
+    },
+    "threat_range": 0,
+    "type": "F-14B "
+}

@@ -1,0 +1,7 @@
+{
+    "category": "tank",
+    "name": "Leclerc",
+    "rcs": 100,
+    "threat_range": 2000,
+    "type": "Char Leclerc"
+}

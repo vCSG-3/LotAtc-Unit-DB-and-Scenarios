@@ -1,0 +1,31 @@
+{
+    "altitude": 7000,
+    "callsign": "CHA",
+    "category": "plane",
+    "ground_speed": 400,
+    "name": "Charcot",
+    "radar": {
+        "air_dist": 100000,
+        "air_rcs": 10,
+        "precision_dist": 150,
+        "radar_status": true,
+        "scan_period": 8,
+        "scan_volume": {
+            "azimuth": [
+                -74,
+                70
+            ],
+            "elevation": [
+                61,
+                120
+            ]
+        },
+        "surface_dist": 0,
+        "surface_rcs": 0
+    },
+    "rcs": 6,
+    "rwr": {
+        "detection_range": 92600
+    },
+    "type": "M-2000C"
+}

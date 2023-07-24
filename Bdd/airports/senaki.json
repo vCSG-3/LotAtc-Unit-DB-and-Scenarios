@@ -1,0 +1,23 @@
+{
+    "category": "airport",
+    "type": "Senaki",
+    "code": "SEN",
+    "detection_range": 70000,
+    "tacan":  "71X",
+    "name": "Senaki",
+    "latitude":  42.241,
+    "longitude": 42.048,
+    "altitude":  13.23,
+    "heading_deg": 135,
+    "runways": [
+        {
+            "angle_deg": -85,
+            "is_ils": false,
+            "latitude":  42.241,
+            "longitude": 42.048,
+            "altitude":  13.23,
+            "length": 2500,
+            "width": 60
+        }
+    ]
+}
