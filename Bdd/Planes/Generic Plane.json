@@ -11,7 +11,7 @@
         "has_datalink": true,
         "range": 129640
     },
-    "name": "Generic",
+    "name": "Generic Aircraft",
     "radar": {
         "air_dist": 111120,
         "air_rcs": 6,
